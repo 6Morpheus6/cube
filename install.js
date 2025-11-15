@@ -35,11 +35,10 @@ module.exports = {
       }
     },
     {
-      method: "hf.download",
+      method: "shell.run",
       params: {
         path: "app",
-        _: ["Roblox/cube3d-v0.1"],
-        "local-dir": "./model_weights",
+        message: " hf download Roblox/cube3d-v0.1 --local-dir ./model_weights "
       }
     }
   ]
