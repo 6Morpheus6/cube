@@ -17,6 +17,7 @@ module.exports = {
         venv: "env",
         path: "app",
         message: [
+          "uv pip install huggingface_hub==0.36",
           "uv pip install -e .[meshlab]",
           "uv pip install gradio"
         ]
